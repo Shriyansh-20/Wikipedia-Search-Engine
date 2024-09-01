@@ -1,5 +1,5 @@
 # Wikipedia-Search-Engine
-
+_________________________________________________________________________________________________________________________________________________________________________________________
 ## Prerequisites:-
 
 1. Python3
@@ -20,15 +20,15 @@ Following Steps Follows to create Inverted Indexing :-
 * Inverted Index Creation : create word & its positing list consist of doc_id : TF-IDf score
 
 Posting List for title/body/infobox/category file:
-
-`
+```
 word1 : doc_id_1 : 70.34, doc_id_30 : 50.12, doc_id_35 : 20
 word2 : doc_id_2 : 40.12, doc_id_35 : 20.78
-`
+```
 
 Word_dictionary :
 
-```word1 : { t : title_file_offset , b : body_file_offset, c : category_file_offset, i : inforbox_file_offset}
+```
+word1 : { t : title_file_offset , b : body_file_offset, c : category_file_offset, i : inforbox_file_offset}
 word2 : { t : title_file_offset , b : body_file_offset, c : category_file_offset, i : inforbox_file_offset}
 ```
 
@@ -48,7 +48,7 @@ word2 : { t : title_file_offset , b : body_file_offset, c : category_file_offset
 `
 python3 wiki_indexer.py <wiki_dump_path> <index_path>
 `
-eg : * python3 wiki_indexer.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/dump_wikipedia.xml /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files *
+eg : *python3 wiki_indexer.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/dump_wikipedia.xml /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files*
 
 ### To Search Query
 
@@ -56,6 +56,6 @@ eg : * python3 wiki_indexer.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects
 python3 search.py <index_path>
 `
 
-eg : * python3 search.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files *
+eg : *python3 search.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files*
 
 
