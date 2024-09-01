@@ -54,9 +54,9 @@ python3 wiki_indexer.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-p
 
 ### To Search Query
 
-`
+```
 python3 search.py <index_path>
-`
+```
 
 eg : `
 python3 search.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files
