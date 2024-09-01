@@ -49,7 +49,7 @@ word2 : { t : title_file_offset , b : body_file_offset, c : category_file_offset
 python3 wiki_indexer.py <wiki_dump_path> <index_path>
 ```
 eg : `
-python3 wiki_indexer.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/dump_wikipedia.xml /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files
+python3 wiki_indexer.py /users/shriyansh/Documents/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/dump_wikipedia.xml /users/shriyansh/Documents/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files
 `
 
 ### To Search Query
@@ -59,7 +59,7 @@ python3 search.py <index_path>
 ```
 
 eg : `
-python3 search.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files
+python3 search.py /users/shriyansh/Documents/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files
 `
 
 
