@@ -25,12 +25,12 @@ Posting List for title/body/infobox/category file:
 word1 : doc_id_1 : 70.34, doc_id_30 : 50.12, doc_id_35 : 20
 word2 : doc_id_2 : 40.12, doc_id_35 : 20.78
 `
+
 Word_dictionary :
 
-`
-word1 : { t : title_file_offset , b : body_file_offset, c : category_file_offset, i : inforbox_file_offset}
+```word1 : { t : title_file_offset , b : body_file_offset, c : category_file_offset, i : inforbox_file_offset}
 word2 : { t : title_file_offset , b : body_file_offset, c : category_file_offset, i : inforbox_file_offset}
-`
+```
 
 ## Features
 
