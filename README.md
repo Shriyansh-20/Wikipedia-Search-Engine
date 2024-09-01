@@ -45,10 +45,12 @@ word2 : { t : title_file_offset , b : body_file_offset, c : category_file_offset
 3. Can not Load full final index into main memory, So Bild Secondary Index on top of Primary Index (Posting List)
 
 ### To Create indexing from Wiki Dump
-`
+```
 python3 wiki_indexer.py <wiki_dump_path> <index_path>
+```
+eg : `
+python3 wiki_indexer.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/dump_wikipedia.xml /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files
 `
-eg : *python3 wiki_indexer.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/dump_wikipedia.xml /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files*
 
 ### To Search Query
 
@@ -56,6 +58,8 @@ eg : *python3 wiki_indexer.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/
 python3 search.py <index_path>
 `
 
-eg : *python3 search.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files*
+eg : `
+python3 search.py /home/darshan/Documents/M.Tech_SEM-3/IRE/projects/mini-projects/wikipedia-search-engine/phase-2/index_files
+`
 
 
