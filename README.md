@@ -41,8 +41,8 @@ word2 : { t : title_file_offset , b : body_file_offset, c : category_file_offset
 ## Challenges
 
 1. Difficult to process such huge Data dump of 73 GB
-2 Can not store word & its posting list into a main memory, So Used K-way Merge sort
-3. Can not Load full final index into main memory, So Bild Secondary Index on top of Primary Index (Posting List)
+2. Can not store word & its posting list into a main memory, So Used K-way Merge sort
+3. Can not Load full final index into main memory, So Built Secondary Index on top of Primary Index (Posting List)
 
 ### To Create indexing from Wiki Dump
 ```
